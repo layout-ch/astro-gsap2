@@ -34,8 +34,4 @@ swup.hooks.replace("animation:in:await", async () => {
       { autoAlpha: 0, scale: 0.9, y: -300, duration: 1, ease: "power3.out" }
     ),
   ]);
-
-  //   const container = document.querySelector("#swup.is-previous-container");
-  //   container.style.top = `-${window.scrollY}px`;
-  //   window.scrollTo(0, { immediate: true });
 });
