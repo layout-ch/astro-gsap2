@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import heroImg from "../assets/project1.png";
+import { Image } from "astro:assets";
+---
+
+<BaseLayout>
+  <section class="section">
+    <Image src={heroImg} alt="" />
+    <h1>Welcome to ABOUT</h1>
+    <p>
+      Astro is a new kind of static site builder that delivers lightning-fast
+      performance with a modern developer experience.
+    </p>
+  </section>
+
+  <section class="section"><a href="/">HOME</a></section>
+</BaseLayout>
